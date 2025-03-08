@@ -11,8 +11,10 @@ body {
 
 #app{
     max-width:90%;
+    
+    box-sizing: border-box;
     position: relative;
-    width: 414px;
+    width: 405px;
     height: 420px;
     display: block;
     margin: 20px auto;
