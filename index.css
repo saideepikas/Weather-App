@@ -1,0 +1,113 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#app{
+    position: relative;
+    width: 414px;
+    height: 420px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 40px 0px;
+    overflow: hidden;
+    border-radius: 45px;
+    background-image: linear-gradient(
+    325deg,
+    hsl(240deg 97% 55%) 0%,
+    hsl(240deg 97% 65%) 32%,
+    hsl(240deg 97% 70%) 59%,
+    hsl(240deg 96% 75%) 74%,
+    hsl(240deg 96% 79%) 84%,
+    hsl(240deg 96% 82%) 90%,
+    hsl(240deg 96% 85%) 94%,
+    hsl(240deg 96% 88%) 97%,
+    hsl(240deg 96% 91%) 99%,
+    hsl(240deg 96% 93%) 100%,
+    hsl(240deg 96% 96%) 100%,
+    hsl(240deg 95% 98%) 100%,
+    hsl(0deg 0% 100%) 100%
+    );
+}
+
+#searchBar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+#searchBarInput{ 
+    border: none;
+    outline: none;
+    width:70%;
+    font-size: 1.1rem;
+    background-color: transparent !important;
+    color: #fff !important;
+    border-bottom: solid 1px lightblue;
+}
+
+
+
+input::placeholder{
+    color: #fff;
+    opacity:0.6;
+}
+#searchIcon{
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+#info{
+    color: #fff;
+    line-height: 0.5rem;
+}
+#info h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0.7em;
+    
+}
+
+#tempImg img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain; /* Preserve aspect ratio */
+}
+#description{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 0;
+    padding: 0;
+}
+#temp{
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+#extraInfo{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: black 2px;
+    color: #edec9e;
+    padding-bottom: 30px;
+
+}
+
+#extraInfo h5 {
+    font-size: 0.9rem;
+    color:#edec9e;
+    text-transform: uppercase;
+}
+
+#extraInfo  p {
+    font-size: 1.1rem;
+}
